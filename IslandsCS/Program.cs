@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IslandsCS
 {
@@ -32,8 +30,7 @@ namespace IslandsCS
             }
             return false;
         }
-
-
+        
         private void GetIslands()
         {
             _elementStack = new Stack<(int, int)>();
@@ -92,7 +89,6 @@ namespace IslandsCS
                     {1, 2},
                     {3, 4},
                 };
-
 
                 var i0 = new int[,] { };
                 var i1a = new int[,] { { 1 } };
